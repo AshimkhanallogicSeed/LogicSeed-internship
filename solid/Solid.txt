@@ -1,0 +1,29 @@
+The SRP states that a class should only have one reason to change.
+
+Definition: A class should only be responsible for one specific task that may lead to any necessary modifications.
+
+Main idea: Every class should be responsible for only one specific task or purpose within the software system.
+
+Principle of Open/Closed (OCP)
+
+Explanation: It is recommended that software entities such as classes, modules, and functions are designed in a way that allows for extension but restricts any modifications.
+
+Main Idea: It is important to be able to add functionality to a class without making changes to its current code.
+
+The Liskov Substitution Principle (LSP) refers to substituting objects of a super class with objects of a subclass without affecting the behavior of the program.
+
+Meaning: Subclasses or offspring classes should be capable of replacing their superclass or ancestor classes.
+
+Child classes should be able to be substituted for their parent classes without causing any unexpected behavior.
+
+Principle of Interface Segregation (ISP)
+
+Definition: Avoid making any client implement an interface that is not applicable to them.
+
+Main idea: Choose numerous small, customized interfaces over a single large, multi-purpose interface.
+
+Principle of Inversion of Dependency
+
+Meaning: Upper-level modules should not rely on lower-level modules. Both need to rely on abstract concepts.
+
+Main Idea: Abstractions should be independent of details; instead, details should rely on abstractions.
